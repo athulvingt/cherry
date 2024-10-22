@@ -1,0 +1,17 @@
+description: Ultralytics best model trained on data.yaml
+author: Ultralytics
+date: '2024-10-20T10:15:43.268902'
+version: 8.3.18
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: over-ripe
+  1: ripe
+  2: sem-ripe
+  3: unripe
